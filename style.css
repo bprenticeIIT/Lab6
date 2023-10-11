@@ -1,4 +1,59 @@
-td, th {
-	border: 1px solid;
-  }
-  
+.title{
+  text-align: center;
+  font-size: 60px;
+}
+
+body {
+   background-image: url("background/stars_background.jpg");
+   background-color: #cccccc;
+}
+
+h1{
+  margin-top: 0;
+}
+
+p {
+  font-size: 3em;
+  line-height: 3em;
+  text-align: center;
+}
+
+#planets {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 1em;
+  border: 0.5px solid #FFDAB9;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+#planets th, 
+#planets td {
+  border: 2px solid #6e84cf;
+  padding: 5px;
+  text-align: center;
+}
+
+#planets th {
+  background-color: #ccc;
+}
+
+#planets tr.active-row {
+  font-weight: bold;
+  color: #6e84cf;
+  text-decoration: underline;
+  background-color: #ccc;
+}
+
+#planets img {
+  width: 100px;
+  height: 100px;
+}
+
+.planet-name {
+  font-weight: bold;
+}
+
+.planet-data {
+  font-style: italic;
+}

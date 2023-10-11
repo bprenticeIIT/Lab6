@@ -39,7 +39,7 @@ p {
 
 #planets tr.active-row {
   font-weight: bold;
-  color: #ffffff;
+  color: #000000;
   text-decoration: underline;
   background-color: #FFD580;
 }

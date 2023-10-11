@@ -18,12 +18,12 @@ p {
 }
 
 #planets {
-  border-collapse: collapse;
   width: 100%;
   margin-top: 1em;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
   border: 0.5px solid #ffd7b5;
-  border-radius: 10px;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  border-collapse: collapse;
 }
 
 #planets th, 
@@ -49,10 +49,10 @@ p {
   height: 100px;
 }
 
-.planet-name {
-  font-weight: bold;
-}
-
 .planet-data {
   font-style: italic;
+}
+
+.planet-name {
+  font-weight: bold;
 }

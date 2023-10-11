@@ -4,8 +4,8 @@
 }
 
 body {
-   background-image: url("background/stars_background.jpg");
-   background-color: #cccccc;
+   background-image: "background/stars_background.jpg";
+   background-color: 	#000000;
 }
 
 h1{
@@ -29,7 +29,7 @@ p {
 
 #planets th, 
 #planets td {
-  border: 2px solid 	#ff6700;
+  border: 2px solid #ff6700;
   padding: 5px;
   text-align: center;
 }
@@ -40,13 +40,13 @@ p {
 
 #planets tr.active-row {
   font-weight: bold;
-  color: #FFD580;
+  color: #ffffff;
   text-decoration: underline;
-  background-color: #ccc;
+  background-color: #FFD580;
 }
 
 #planets img {
-  width: 100px;
+  width: 120px;
   height: 100px;
 }
 
